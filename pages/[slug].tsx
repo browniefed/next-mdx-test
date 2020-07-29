@@ -3,14 +3,6 @@ import renderToString from "next-mdx-remote/render-to-string";
 import hydrate from "next-mdx-remote/hydrate";
 import rehypeShiki from "../shiki";
 
-const mdxContent = `
-## Hello
-
-\`\`\`jsx
-var abc = 123;
-\`\`\`
-`;
-
 const Tutorial = ({ mdxSource }) => {
   if (!mdxSource) {
     return null;
@@ -20,6 +12,14 @@ const Tutorial = ({ mdxSource }) => {
 };
 
 export async function getStaticProps({}) {
+  const mdxContent = `
+## Hello
+
+\`\`\`jsx
+var abc = ${Date.now()};
+\`\`\`
+`;
+
   const mdxSource = await renderToString(
     mdxContent,
     {},
