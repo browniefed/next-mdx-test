@@ -4,7 +4,7 @@ const {
   commonLangIds,
   commonLangAliases,
   otherLangIds,
-} = require("shiki-languages");
+} = require("shiki-languages-paths");
 const hastToString = require("hast-util-to-string");
 const u = require("unist-builder");
 
