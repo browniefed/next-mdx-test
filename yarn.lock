@@ -5350,10 +5350,10 @@ shiki-languages-paths@^0.1.6:
   dependencies:
     vscode-textmate "https://github.com/octref/vscode-textmate"
 
-shiki-paths@0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/shiki-paths/-/shiki-paths-0.1.8.tgz#3771956ea683ec808a98909acf80df6a34a13e7f"
-  integrity sha512-f1Ixml//N6yKuPAmIFfNORWpbYVseh+78mwMcRybNgkxvCXWCgGciqqNR6dB2ADz6sVibORq7M9UrVRF1i/pCA==
+shiki-paths@0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/shiki-paths/-/shiki-paths-0.1.9.tgz#52a07df47b105f0c8a0ca3f72895fc2fd0103882"
+  integrity sha512-Fn5isBmgFoo4bpdHShqeCGnth7IYhgNUbPhDeSDH7RVpZAPtRtwmQ1kKMs39I8rUB9G4L/dY+2vDTy8DzQ+ycg==
   dependencies:
     onigasm "^2.2.1"
     shiki-languages-paths "^0.1.6"
@@ -6132,6 +6132,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+"vscode-textmate@git+https://github.com/octref/vscode-textmate.git":
+  version "4.0.1"
+  uid e65aabe2227febda7beaad31dd0fca1228c5ddf3
+  resolved "git+https://github.com/octref/vscode-textmate.git#e65aabe2227febda7beaad31dd0fca1228c5ddf3"
 
 "vscode-textmate@https://github.com/octref/vscode-textmate":
   version "4.0.1"
