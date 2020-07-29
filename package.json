@@ -1,0 +1,30 @@
+{
+  "name": "next-mdx-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hast-util-to-string": "^1.0.4",
+    "next": "^9.5.0",
+    "next-mdx-remote": "^0.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "shiki": "^0.1.7",
+    "shiki-languages": "^0.1.6",
+    "unist-builder": "^2.0.3",
+    "unist-util-visit": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.43",
+    "typescript": "^3.9.7"
+  }
+}
