@@ -5357,6 +5357,17 @@ shiki-languages@^0.1.6:
   dependencies:
     vscode-textmate "https://github.com/octref/vscode-textmate"
 
+shiki-paths@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/shiki-paths/-/shiki-paths-0.1.7.tgz#0d4f47371cd1124f606ece7367c0cc12730f115a"
+  integrity sha512-w4S4csQABtMikgh41sY3M/c+sPKGJW9KViPa4W5HH9iaE+hnHHx+omafSniA4Fdo2WyKyxcP/YF77hWS0EV+kg==
+  dependencies:
+    onigasm "^2.2.1"
+    shiki-languages "^0.1.6"
+    shiki-languages-paths "^0.1.6"
+    shiki-themes "^0.1.7"
+    vscode-textmate "https://github.com/octref/vscode-textmate"
+
 shiki-themes@^0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/shiki-themes/-/shiki-themes-0.1.7.tgz#edaf2027b31bb3645dd044f66a76d4cdb2599b77"

@@ -1,4 +1,4 @@
-const shiki = require("shiki");
+const shiki = require("shiki-paths");
 const visit = require("unist-util-visit");
 const {
   commonLangIds,

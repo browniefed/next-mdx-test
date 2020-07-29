@@ -18,8 +18,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "shiki": "^0.1.7",
-    "shiki-languages": "^0.1.6",
     "shiki-languages-paths": "^0.1.6",
+    "shiki-paths": "^0.1.7",
     "unist-builder": "^2.0.3",
     "unist-util-visit": "^2.0.3"
   },
